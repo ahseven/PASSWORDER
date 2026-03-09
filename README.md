@@ -28,7 +28,7 @@
    git clone [https://github.com/your-username/passworder.git](https://github.com/your-username/passworder.git)
    cd passworder
 
-```
+   ```
 
 2. **Retrieve the Wordlist:**
 Due to its size (155MB+), `rockyou.txt` is not included in the repository.
