@@ -27,7 +27,6 @@
    ```bash
    git clone [https://github.com/your-username/passworder.git](https://github.com/your-username/passworder.git)
    cd Password-Generator-and-Strength-Checker
-   java passworder.java
 
    ```
 
