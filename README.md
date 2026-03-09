@@ -82,10 +82,5 @@ java passworder.java
 
 ---
 
-© 2024 Passworder Project
+© 2026 Passworder Project
 
-```
-
-Would you like me to create a `.gitignore` file for you as well, so you don't accidentally try to upload that massive 155MB `rockyou.txt` to GitHub?
-
-```
