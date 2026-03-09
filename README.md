@@ -33,7 +33,7 @@
 
 2. **Retrieve the Wordlist:**
 Due to its size (155MB+), `rockyou.txt` is not included in the repository.
-* **Download:** https://github.com/dw0rsec/rockyou.txt/blob/master/rockyou.txt.zip
+* **Download Rockyou.txt:** https://github.com/dw0rsec/rockyou.txt/blob/master/rockyou.txt.zip
 * **Action:** Extract the `.zip` and place the `rockyou.txt` file directly into the project root folder.
 
 
