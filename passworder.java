@@ -4,6 +4,8 @@ import java.util.*;
 import java.util.stream.Stream;
 
 
+
+
 class password_strenght_check{
     public static void main(String[] args) {
         
@@ -24,7 +26,7 @@ class password_strenght_check{
         System.out.println("\nIs your password strong enough? Let's find out!\n\n"); // Welcome message
         
 
-        // Code Start :
+        // Main code Start :
 
         Scanner input = new Scanner(System.in); // Define scanner for using input
 
@@ -79,6 +81,9 @@ class password_strenght_check{
         if (password.matches(".*[A-Z].*")) { // Check for uppercase letters
             strength++;
         }
+        if (password.matches(".*[a-z].*")) { // Check for lower letters
+            strength++;
+        }
         if (password.matches(".*[^A-Za-z0-9].*")) { // Check for special characters
             strength++;
         }
@@ -96,13 +101,13 @@ class password_strenght_check{
     public static String passwordStrengthRating(int strength) { 
         
         // Convert strength score to a rating
-        if (strength <= 2) {
+        if (strength <= 3) {
             return "Weak";
         } 
-        else if (strength <= 4) {
+        else if (strength <= 5) {
             return "Medium";
         } 
-        else if (strength == 5) {
+        else if (strength == 6) {
             return "Strong";
         } 
         else {
@@ -127,7 +132,7 @@ class password_strenght_check{
             }
 
         } catch (IOException e) {
-            return "Error: Database file 'rockyou.txt' not found.";
+            return "Error: Database file 'rockyou.txt' or any WORDLIST not found.";
         }
     }
 
@@ -145,5 +150,4 @@ class password_strenght_check{
         return password.toString();
     }
 }   
-
 
