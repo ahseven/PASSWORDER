@@ -84,12 +84,8 @@ class password_strenght_check{
         if (password.matches(".*[^A-Za-z0-9].*")) { // Check for special characters
             strength++;
         }
-
-        if ((!username.equals(password))) {
-            strength++; // If the password is the same as username
-        }
         
-        if (username.equals(password)) {
+        if (username.equals(password)) { // Password same as username, set to 0 (Weak)
             return 0; 
         }
         return strength;
@@ -147,4 +143,3 @@ class password_strenght_check{
         return password.toString();
     }
 }   
-
