@@ -94,13 +94,13 @@ class password_strenght_check{
     public static String passwordStrengthRating(int strength) { 
         
         // Convert strength score to a rating
-        if (strength <= 3) {
+        if (strength <= 2) {
             return "Weak";
         } 
-        else if (strength <= 5) {
+        else if (strength <= 4) {
             return "Medium";
         } 
-        else if (strength == 6) {
+        else if (strength == 5) {
             return "Strong";
         } 
         else {
